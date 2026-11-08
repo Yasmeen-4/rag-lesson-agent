@@ -1,0 +1,2 @@
+anthropic>=0.40   # only if --provider anthropic
+openai>=1.40      # only if --provider openai
