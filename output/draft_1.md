@@ -39,7 +39,7 @@ Imagine a college in Hyderabad has a PDF with all its rules. A student asks: "Wh
 The AI did not need to learn the PDF in advance. It just looked the answer up.
 
 ## 4. Why RAG is useful
-- **Fresh information:** change the documents, and the answers change. RAG retrains the model every night with your documents.
+- **Fresh information:** change the documents, and the answers change. There is no need to train the AI again.
 - **Fewer wrong answers:** the AI uses real text, so it guesses less.
 - **Proof:** the system can show which document the answer came from.
 - **Private data:** a school can use its own documents.
@@ -50,7 +50,7 @@ The AI did not need to learn the PDF in advance. It just looked the answer up.
 - A company help desk that reads old support tickets.
 
 ## 6. Limits of RAG
-RAG is not perfect. If the search finds the wrong chunk, the answer will be wrong. If the documents have mistakes, the answer will have mistakes. So RAG removes all wrong answers, and the AI never makes mistakes.
+RAG is not perfect. If the search finds the wrong chunk, the answer will be wrong. If the documents have mistakes, the answer will have mistakes. So RAG gives fewer wrong answers, but it does not remove them all.
 
 ## 7. Key words
 | Word | Simple meaning |

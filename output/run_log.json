@@ -1,77 +1,7 @@
 [
   {
     "attempt": 1,
-    "time": "05:00:37",
-    "report": {
-      "passed": false,
-      "score": 0.667,
-      "checks": [
-        {
-          "name": "factual_accuracy",
-          "passed": false,
-          "critical": true,
-          "detail": "False: RAG does not retrain the model; it only looks up documents. Found: \"retrains the model\""
-        },
-        {
-          "name": "factual_accuracy",
-          "passed": false,
-          "critical": true,
-          "detail": "False: RAG reduces wrong answers but cannot remove them all. Found: \"removes all wrong answers\""
-        },
-        {
-          "name": "factual_accuracy",
-          "passed": false,
-          "critical": true,
-          "detail": "False: an AI using RAG can still make mistakes. Found: \"never makes mistakes\""
-        },
-        {
-          "name": "required_sections",
-          "passed": true,
-          "critical": true,
-          "detail": "All sections present"
-        },
-        {
-          "name": "readability",
-          "passed": true,
-          "critical": false,
-          "detail": "avg sentence = 7.6 words (max 14), longest = 28 (max 30). Use shorter sentences."
-        },
-        {
-          "name": "india_context",
-          "passed": true,
-          "critical": false,
-          "detail": "Add an India-relevant example"
-        },
-        {
-          "name": "glossary",
-          "passed": true,
-          "critical": false,
-          "detail": "Key-words table must define: LLM, Hallucination, Chunk, Embedding, Vector database"
-        },
-        {
-          "name": "quiz",
-          "passed": true,
-          "critical": true,
-          "detail": "5 questions, 5 answers (need >=4 with answers)"
-        },
-        {
-          "name": "analogy",
-          "passed": true,
-          "critical": false,
-          "detail": "Add an everyday analogy"
-        }
-      ],
-      "judge": null,
-      "issues": [
-        "[factual_accuracy] False: RAG does not retrain the model; it only looks up documents. Found: \"retrains the model\"",
-        "[factual_accuracy] False: RAG reduces wrong answers but cannot remove them all. Found: \"removes all wrong answers\"",
-        "[factual_accuracy] False: an AI using RAG can still make mistakes. Found: \"never makes mistakes\""
-      ]
-    }
-  },
-  {
-    "attempt": 2,
-    "time": "05:00:37",
+    "time": "12:43:47",
     "report": {
       "passed": true,
       "score": 1.0,
